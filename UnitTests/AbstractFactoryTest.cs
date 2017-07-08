@@ -4,7 +4,7 @@ using AbstractFactory.Factory;
 using Shouldly;
 using Xunit;
 
-namespace DesignPatterns.Tests
+namespace UnitTests
 {
     public class AbstractFactoryTest
     {
