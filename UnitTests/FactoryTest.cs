@@ -22,6 +22,7 @@ namespace UnitTests
             generator.ShouldNotBeNull();
             var hero = generator.GetHero();
             hero.Name.ShouldBe(name);
+            hero.Type.ShouldBe(seed == 0 ? HeroType.Melee : HeroType.Ranged);
         }
     }
 }

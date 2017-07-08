@@ -6,7 +6,7 @@
 
         public RangedGenerator(string name)
         {
-            _hero = new Hero(name);
+            _hero = new Hero(name, HeroType.Ranged);
         }
 
         public Hero GetHero()

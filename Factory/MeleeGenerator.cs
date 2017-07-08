@@ -6,7 +6,7 @@
 
         public MeleeGenerator(string name)
         {
-            _hero = new Hero(name);
+            _hero = new Hero(name, HeroType.Melee);
         }
 
         public Hero GetHero()
