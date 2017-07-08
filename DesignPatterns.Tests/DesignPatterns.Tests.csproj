@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactoryTest.cs" />
+    <Compile Include="FactoryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +60,10 @@
     <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj">
       <Project>{f469816a-ba3b-4f4f-b734-176e29f5c568}</Project>
       <Name>AbstractFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Factory\Factory.csproj">
+      <Project>{B6065757-53C7-439C-969C-9039754EC9DF}</Project>
+      <Name>Factory</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
