@@ -4,6 +4,9 @@ using System;
 
 namespace AbstractFactory.Factory
 {
+    /// <summary>
+    /// Abstract Factory
+    /// </summary>
     public abstract class HeroGenerator
     {
         private static readonly MeleeGenerator MeleeCreator = new MeleeGenerator();

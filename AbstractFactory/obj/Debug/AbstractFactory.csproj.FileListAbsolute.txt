@@ -1,4 +1,0 @@
-D:\git\DesignPatterns\AbstractFactory\bin\Debug\AbstractFactory.dll
-D:\git\DesignPatterns\AbstractFactory\bin\Debug\AbstractFactory.pdb
-D:\git\DesignPatterns\AbstractFactory\obj\Debug\AbstractFactory.dll
-D:\git\DesignPatterns\AbstractFactory\obj\Debug\AbstractFactory.pdb
