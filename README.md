@@ -1,2 +1,2 @@
-"# Design Patterns" 
-"My practice for design patterns" 
+# Design Patterns
+My practice for design patterns
