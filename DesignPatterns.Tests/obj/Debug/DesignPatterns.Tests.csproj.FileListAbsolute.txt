@@ -1,0 +1,16 @@
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\DesignPatterns.Tests.dll
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\DesignPatterns.Tests.pdb
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\AbstractFactory.dll
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\Shouldly.dll
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\xunit.abstractions.dll
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\xunit.assert.dll
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\xunit.core.dll
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\xunit.execution.desktop.dll
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\AbstractFactory.pdb
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\xunit.abstractions.xml
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\xunit.assert.xml
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\xunit.core.xml
+D:\git\DesignPatterns\DesignPatterns.Tests\bin\Debug\xunit.execution.desktop.xml
+D:\git\DesignPatterns\DesignPatterns.Tests\obj\Debug\DesignPatterns.Tests.csprojResolveAssemblyReference.cache
+D:\git\DesignPatterns\DesignPatterns.Tests\obj\Debug\DesignPatterns.Tests.dll
+D:\git\DesignPatterns\DesignPatterns.Tests\obj\Debug\DesignPatterns.Tests.pdb
