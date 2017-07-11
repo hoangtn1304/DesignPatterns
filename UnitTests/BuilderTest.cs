@@ -23,5 +23,14 @@ namespace UnitTests
             hero.Boot.ShouldBe(boot);
             hero.Shield.ShouldBe(shield);
         }
+
+        public void HeroBuilderDirectorTest(){
+            
+            var heroBuilderDirector = new HeroBuilderDirector();
+            var hero = heroBuilderDirector.Construct(new MeleeHeroBuilder());
+
+			hero.Weapon.ShouldBe(WeaponType.Sword);
+            hero.Shield.ShouldBe(ShieldType.Steel);
+        }
     }
 }
