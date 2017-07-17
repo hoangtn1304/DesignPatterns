@@ -53,6 +53,7 @@
     <Compile Include="FactoryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BuilderTest.cs" />
+    <Compile Include="SingletonTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -69,6 +70,10 @@
     <ProjectReference Include="..\Builder\Builder.csproj">
       <Project>{4F9E307F-6F71-440E-B5B1-5ED8251AA8D2}</Project>
       <Name>Builder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Singleton\Singleton.csproj">
+      <Project>{247613b9-2ec5-4ed1-b381-ce3673abfa0e}</Project>
+      <Name>Singleton</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
