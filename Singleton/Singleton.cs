@@ -1,16 +1,21 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace Singleton
 {
     public class Singleton
     {
-        private static Singleton _instance;
+        private static volatile Singleton _instance;
         public string Name => new Random().Next('A', 'Z').ToString();
 
         private Singleton()
         {
         }
 
-        public static Singleton Instance => _instance ?? (_instance = new Singleton());
+        [MethodImpl(MethodImplOptions.Synchronized)]
+        public static Singleton GetInstance()
+        {
+            return _instance ?? (_instance = new Singleton());
+        }
     }
 }

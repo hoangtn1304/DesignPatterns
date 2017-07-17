@@ -9,8 +9,8 @@ namespace UnitTests
         [Fact]
         public void SingletonClassTest()
         {
-            var instance1 = SingletonClass.Instance;
-            var instance2 = SingletonClass.Instance;
+            var instance1 = SingletonClass.GetInstance();
+            var instance2 = SingletonClass.GetInstance();
 
             instance1.Name.ShouldBe(instance2.Name);
         }
